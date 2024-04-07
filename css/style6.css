@@ -1,0 +1,158 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+html {
+    overflow: hidden;
+}
+body, html {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    background-color: black;
+    color: white;
+}
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* package1*/
+/* ------------------------------------------------------------------- */
+#page1 {
+    overflow: hidden;
+}
+.containerText {
+    width: 30%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.containerText > p {
+    font-size: 65px;
+    font-weight: 700;
+}
+.containerText > p:nth-child(2) {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1;
+}
+.containerImg {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    float: right;
+    border-radius: 530px 0 0 530px;
+    overflow: hidden;
+}
+.containerImg > img {
+    height: 100%;
+}
+.packageBox p {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+.packageBox1 {
+    position: absolute;
+    top: 20%; left: 10%;
+}
+.packageBox1 > img{
+    width: 500px;
+}
+.packageBox2 {
+    width: 410px;
+}
+.boxContainer1 {
+    margin-bottom: 20px;
+}
+.boxContainer1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.boxContainer2 p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.colorBox {
+    float: left;
+    width: 50%;
+}
+.colorContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 50px 30px;
+}
+.colorContainer1 {
+    background-color: #254303;
+}
+.colorContainer2 {
+    background-color: #fcb549;
+}
+/* ------------- */
+#page2 {
+    overflow: hidden;
+}
+#page3 {
+    overflow: hidden;
+}
+.packageImgFull {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* package2 */
+/* ------------------------------------------------------------------- */
+#page4 {
+    overflow: hidden;
+}
+.colorContainer3 {
+    background-color: #ed8a47;
+}
+.colorContainer4 {
+    background-color: #22421b;
+}
+
+/* package3 */
+/* ------------------------------------------------------------------- */
+#page7 {
+    overflow: hidden;
+}
+.colorContainer5 {
+    background-color: #ca0000;
+}
+.colorContainer6 {
+    background-color: #e9c3c2;
+}
+
+/* package4 */
+/* ------------------------------------------------------------------- */
+#page10 {
+    overflow: hidden;
+}
+.colorContainer7 {
+    background-color: #4d2d1e;
+}
+.colorContainer8 {
+    background-color: #e5c6a7;
+}
