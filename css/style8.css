@@ -68,4 +68,6 @@ button {
 }
 .containerImg > img {
     height: 100%;
+    position: absolute;
+    left: -7%;
 }
