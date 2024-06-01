@@ -111,11 +111,11 @@ button {
     flex-direction: column;
 }
 .text_eg {
-    font-size: 60px;
+    font-size: 45px;
     padding-top: 30%;
 }
 .text_kr {
-    font-size: 27px;
+    font-size: 20px;
     line-height: 1.3;
     opacity: 0.8;
     padding-right: 30px;
@@ -126,20 +126,22 @@ button {
     padding: 0;
     margin-right: 200px;
 }
-.page2_text2 p {
-    padding-top: 15%;
+.page2_main_text {
+    padding-top: 10%;
     text-align: center;
-    font-size: 62px;
+    font-size: 50px;
+}
+.page2_box {
+    margin-top: 9%;
 }
 .page2_box > p:nth-child(1) {
-    padding-top: 65px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     padding-right: 240px;
 }
 .page2_box > p:nth-child(2) {
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 10px;
     line-height: 1.2;
     margin-right: 30px;
@@ -153,7 +155,7 @@ button {
 .page2_box > p:nth-child(3) {
     text-align: left;
     flex-direction: row;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 10px;
     line-height: 1.2;
     float: left;
@@ -168,27 +170,31 @@ button {
 }
 .sns_icon {
     padding-right: 210px;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 .sns_icon > a:nth-child(2) {
     margin-left: 10px;
 }
 .sns_icon > a > img {
-    width: 50px;
+    width: 40px;
 }
 .skill_icon {
     margin-top: 10px;
 }
 .skill_icon img {
-    width: 70px;
+    width: 50px;
 }
 .skill_icon_box1 > img:nth-child(4) {
-    width: 60px;
+    width: 40px;
     padding: 5px;
 }
 .skill_icon_box2 img {
-    width: 70px;
+    width: 40px;
     border-radius: 10px;
+    margin-left: 12px;
+}
+.skill_icon_box2 img:nth-child(1) {
+    margin-left: 0;
 }
 
 /* ------------------------------------------------------------------- */
@@ -196,37 +202,47 @@ button {
     overflow: hidden;
 }
 #page3 p:nth-child(1) {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 700;
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 5%;
 }
-.contents_container > button {
+.button-box {
+    padding-right: 10%;
+}
+.button-box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.button-box > button {
     float: right;
-    position: relative;
-    top: 10%;
-    right: 3%;
     opacity: 0.5;
 }
-.contents_container > button:hover {
+.button-box > button:hover {
     opacity: 1;
 }
+.content_button {
+    float: right;
+}
+.content_button > img {
+    width: 40px;
+}
 #contents_prev {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 .contents_container {
-    width: 1500px;
+    width: 1150px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     left: 5%;
-    top: 13%;
 }
 .contents_container::after {
     content: "";
     display: block;
     position: absolute;
-    top: 11%;
+    top: 0;
     right: 0;
     width: 320px;
     height: 100%;
@@ -239,26 +255,26 @@ button {
 }
 .contents_top {
     width: 200%;
-    margin-top: 6%;
     position: relative;
     top: 0;
     left: 0;
+    margin-top: 1%;
 }
 .contents::after { content: ""; display: block; clear: both; }
 .contents > li::after { content: ""; display: block; clear: both; }
 .contents > li {
     float: left;
-    width: 560px;
+    width: 400px;
 }
 .contents > li > a > img {
-    width: 270px;
-    height: 300px;
+    width: 200px;
+    height: 240px;
     object-fit: cover;
     float: left;
 }
 .contents > li > p {
     float: left;
-    font-size: 23px;
+    font-size: 18px;
     line-height: 1.3;
     margin-left: 30px;
     margin-top: 30px;
@@ -268,12 +284,12 @@ button {
 }
 .contents_bottom {
     width: 200%;
-    margin-top: 6%;
+    margin-top: 3%;
     position: relative;
     top: 0;
     left: 0;
 }
-.contents_container > li:nth-child(4) {
+.contents_container > li:nth-child(2) {
     position: relative;
     left: 18%;
     top: 0;
