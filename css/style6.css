@@ -44,15 +44,17 @@ button {
     transform: translate(-50%, -50%);
 }
 .containerText > p {
-    font-size: 65px;
+    font-size: 39px;
     font-weight: 700;
+    /* text-align: center; */
 }
 .containerText > p:nth-child(2) {
-    margin-top: 30px;
-    margin-bottom: 80px;
+    margin-top: 15px;
+    margin-bottom: 50px;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 1;
+    /* text-align: center; */
 }
 .containerImg {
     position: relative;
@@ -66,9 +68,9 @@ button {
     height: 100%;
 }
 .packageBox p {
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
+    font-size: 17px;
+    line-height: 1.3;
+    /* text-align: center; */
 }
 .packageBox1 {
     position: absolute;
@@ -81,7 +83,7 @@ button {
     width: 410px;
 }
 .boxContainer1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .boxContainer1::after {
     content: "";
@@ -89,7 +91,7 @@ button {
     clear: both;
 }
 .boxContainer2 p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
 }
 .colorBox {
@@ -97,10 +99,10 @@ button {
     width: 50%;
 }
 .colorContainer {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
-    margin: 0 50px 30px;
+    margin: 0 0px 20px;
 }
 .colorContainer1 {
     background-color: #254303;
