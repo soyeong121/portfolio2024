@@ -40,7 +40,7 @@ $(function(){
     function contentsNextSlideImage() {
         contentsIndex++;
         contentsIndex %= contentsCount;
-        contentsSlide.style.left = '-560px';
+        contentsSlide.style.left = '-400px';
         contentsSlide.style.transition = contentsDuration + 'ms';
         window.setTimeout(() => {
             contentsSlide.appendChild(contentsSlide.firstElementChild);
@@ -52,7 +52,7 @@ $(function(){
         contentsIndex--;
         contentsIndex %= contentsCount;
         contentsSlide.insertBefore(contentsSlide.lastElementChild, contentsSlide.firstChild);
-        contentsSlide.style.left = "-560px";
+        contentsSlide.style.left = "-400px";
         contentsSlide.style.transition = "0ms";
         window.setTimeout(() => {
             contentsSlide.style.left = 0;
@@ -63,7 +63,7 @@ $(function(){
         function contents2NextSlideImage() {
             contents2Index++;
             contents2Index %= contents2Count;
-            contents2Slide.style.left = '-560px';
+            contents2Slide.style.left = '-400px';
             contents2Slide.style.transition = contentsDuration + 'ms';
             window.setTimeout(() => {
                 contents2Slide.appendChild(contents2Slide.firstElementChild);
@@ -75,7 +75,7 @@ $(function(){
             contents2Index--;
             contents2Index %= contents2Count;
             contents2Slide.insertBefore(contents2Slide.lastElementChild, contents2Slide.firstChild);
-            contents2Slide.style.left = "-560px";
+            contents2Slide.style.left = "-400px";
             contents2Slide.style.transition = "0ms";
             window.setTimeout(() => {
                 contents2Slide.style.left = 0;
