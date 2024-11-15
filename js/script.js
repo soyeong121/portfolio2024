@@ -26,7 +26,7 @@ $(function(){
         contents2Slide = document.querySelector('.contents_bottom'),
         contentsCount = contentsSlides.length,
         contents2Count = contentsSlides.length,
-        contentsDuration = 300,
+        contentsDuration = 400,
         contents2Index = 0
         contentsIndex = 0;
 
@@ -79,7 +79,7 @@ $(function(){
             contents2Index %= contents2Count;
             contents2Slide.insertBefore(contents2Slide.lastElementChild, contents2Slide.firstChild);
             // contents2Slide.style.left = "-400px";
-            contents2Slide.style.left = '-17%';
+            contents2Slide.style.left  = '-17%';
             contents2Slide.style.transition = "0ms";
             window.setTimeout(() => {
                 contents2Slide.style.left = 0;
