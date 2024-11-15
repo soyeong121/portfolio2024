@@ -26,7 +26,7 @@ $(function(){
         contents2Slide = document.querySelector('.contents_bottom'),
         contentsCount = contentsSlides.length,
         contents2Count = contentsSlides.length,
-        contentsDuration = 400,
+        contentsDuration = 300,
         contents2Index = 0
         contentsIndex = 0;
 
