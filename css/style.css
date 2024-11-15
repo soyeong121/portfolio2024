@@ -233,7 +233,7 @@ button {
     margin-right: 10px;
 }
 .contents_container {
-    width: 1150px;
+    width: 85%;
     overflow: hidden;
     position: relative;
     left: 5%;
@@ -264,7 +264,7 @@ button {
 .contents > li::after { content: ""; display: block; clear: both; }
 .contents > li {
     float: left;
-    width: 400px;
+    width: 17%;
 }
 .contents > li > a > img {
     width: 200px;
