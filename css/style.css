@@ -264,8 +264,8 @@ button {
 .contents > li::after { content: ""; display: block; clear: both; }
 .contents > li {
     float: left;
-    width: 17%;
-    // width : 400px;
+    // width: 17%;
+    width : 400px;
 }
 .contents > li > a > img {
     width: 200px;
