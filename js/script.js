@@ -26,7 +26,7 @@ $(function(){
         contents2Slide = document.querySelector('.contents_bottom'),
         contentsCount = contentsSlides.length,
         contents2Count = contentsSlides.length,
-        contentsDuration = 400,
+        contentsDuration = 17%,
         contents2Index = 0
         contentsIndex = 0;
 
@@ -40,8 +40,8 @@ $(function(){
     function contentsNextSlideImage() {
         contentsIndex++;
         contentsIndex %= contentsCount;
-        contentsSlide.style.left = '-400px';
-        // contentsSlide.style.left = '-17%';
+        // contentsSlide.style.left = '-400px';
+        contentsSlide.style.left = '-17%';
         contentsSlide.style.transition = contentsDuration + 'ms';
         window.setTimeout(() => {
             contentsSlide.appendChild(contentsSlide.firstElementChild);
@@ -53,8 +53,8 @@ $(function(){
         contentsIndex--;
         contentsIndex %= contentsCount;
         contentsSlide.insertBefore(contentsSlide.lastElementChild, contentsSlide.firstChild);
-        contentsSlide.style.left = "-400px";
-        // contentsSlide.style.left = "-17%";
+        // contentsSlide.style.left = "-400px";
+        contentsSlide.style.left = "-17%";
         contentsSlide.style.transition = "0ms";
         window.setTimeout(() => {
             contentsSlide.style.left = 0;
@@ -65,8 +65,8 @@ $(function(){
         function contents2NextSlideImage() {
             contents2Index++;
             contents2Index %= contents2Count;
-            contents2Slide.style.left = '-400px';
-            // contents2Slide.style.left = '-17%';
+            // contents2Slide.style.left = '-400px';
+            contents2Slide.style.left = '-17%';
             contents2Slide.style.transition = contentsDuration + 'ms';
             window.setTimeout(() => {
                 contents2Slide.appendChild(contents2Slide.firstElementChild);
@@ -78,8 +78,8 @@ $(function(){
             contents2Index--;
             contents2Index %= contents2Count;
             contents2Slide.insertBefore(contents2Slide.lastElementChild, contents2Slide.firstChild);
-            contents2Slide.style.left = "-400px";
-            // contents2Slide.style.left  = '-17%';
+            // contents2Slide.style.left = "-400px";
+            contents2Slide.style.left  = '-17%';
             contents2Slide.style.transition = "0ms";
             window.setTimeout(() => {
                 contents2Slide.style.left = 0;
