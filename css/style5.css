@@ -31,6 +31,89 @@ button {
 }
 
 /* branding1*/
+
+/* ------------------------------------------------------------------- */
+#page01 {
+    overflow: hidden;
+}
+.containerText {
+    width: 30%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.containerText > p {
+    font-size: 39px;
+    font-weight: 700;
+}
+.containerText > p:nth-child(2) {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.containerImg {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    float: right;
+    border-radius: 530px 0 0 530px;
+    overflow: hidden;
+}
+.containerImg > img {
+    height: 100%;
+}
+.colorContainer124 {
+    background-color: #0a488c;
+}
+.colorContainer123 {
+    background-color: #1998f7;
+}
+
+/* -----효정병원------ */
+
+/* ------------------------------------------------------------------- */
+#page0 {
+    overflow: hidden;
+}
+.containerText {
+    width: 30%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.containerText > p {
+    font-size: 39px;
+    font-weight: 700;
+}
+.containerText > p:nth-child(2) {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.containerImg {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    float: right;
+    border-radius: 530px 0 0 530px;
+    overflow: hidden;
+}
+.containerImg > img {
+    height: 100%;
+}
+.colorContainer567 {
+    background-color: #0002e9;
+}
+.colorContainer568 {
+    background-color: #c4c4e9;
+}
+
+/* -----지니캐디------ */
+
 /* ------------------------------------------------------------------- */
 #page1 {
     overflow: hidden;
