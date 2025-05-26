@@ -64,6 +64,8 @@ button {
     font-weight: 300;
     margin-top: 15px;
 }
+/*
+기존
 .containerImg {
     position: relative;
     height: 100%;
@@ -76,6 +78,18 @@ button {
     height: 100%;
     position: absolute;
     right: -250px;
+}
+*/
+.containerImg {
+    float: right;
+    height: 100%;
+    display: flex;
+    margin-right: 100px;
+}
+.containerImg > img {
+    height: 100%;
+    margin: auto;
+    display: block;
 }
 
 /* webdesign2 */
